@@ -1,0 +1,10 @@
+/* ./your-css-folder/styles.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.tx-button:focus-visible {
+  @apply outline-none ring-offset-0 ring-1 ring-gray-800 border-gray-800;
+}
+
+select, input{ border-color:#c7ccd8 !important}
